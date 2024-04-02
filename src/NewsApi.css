@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.homeContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: #f4f2ee;
+  }
+
+
+
+
+/*sidebarRight Css*/
+
+.sidebarRight {
+    height: 800px;
+    width: 28%;
+    border-radius: 8px;
+    /* box-shadow: 0px 0px 0px 0.2px grey; */
+  }
+  .sideBarNews {
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 0.2px grey;
+    overflow-y: scroll;
+  }
+  
+  .sideBarImg {
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0px 0px 0px 0.2px grey; */
+  }
+  .sideBarImg img {
+    height: 240px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .lnews {
+    font-size: 0.8rem;
+  }
+  
+  .sideBarNews ul {
+    padding: 0px 0px 0px 20px;
+  }
+  .sideBarNews li {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    text-wrap: nowrap;
+    font-size: 0.8rem;
+  }
+  .sideBarNews li:hover {
+    background-color: rgb(221, 224, 224);
+  }
+  
+  .sideBarNews a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+  }
